@@ -38,19 +38,19 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const quizData: QuestionData[] = [
   {
-    prompt: 'Which of the following is a fruit?',
+    prompt: 'Which of the following is a Metal?',
     type: 'multiple-choice',
-    choices: ['Carrot', 'Apple', 'Potato', 'Celery'],
+    choices: ['Carrot', 'Iron', 'Bread', 'Celery'],
     correct: 1,
   },
   {
-    prompt: 'Select all even numbers:',
+    prompt: 'Select all odd numbers:',
     type: 'multiple-answer',
     choices: ['1', '2', '3', '4'],
-    correct: [1, 3],
+    correct: [0, 2],
   },
   {
-    prompt: 'The sky is blue.',
+    prompt: 'My name is Ethan.',
     type: 'true-false',
     choices: ['False', 'True'],
     correct: 1,
